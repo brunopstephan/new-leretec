@@ -1,0 +1,23 @@
+[] - Landing Page
+[] - Tela de pesquisa
+    [] - Cards
+    [] - Pesquisa
+    [] - Filtros
+[] - Login ADM
+[] - Tela ADMIN
+    [] - HUB para permitir e recusar histórias
+    [] - Criação manual
+    [] - Edição de cada história
+    [] - Deleção de cada história
+[] - Tela de configurações
+[] - Tela de edital
+
+//ideas
+[] - Tela da história
+[] - Favoritos
+
+//later
+[] - Login Usuário
+[] - Cadastro Usuário
+
+
