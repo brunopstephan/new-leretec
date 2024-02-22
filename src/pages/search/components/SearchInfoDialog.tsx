@@ -11,7 +11,7 @@ export function SearchInfoDialog({ children }: SearchInfoDialogProps) {
   return (
     <Dialog>
       <DialogTrigger asChild>{children}</DialogTrigger>
-      <DialogContent className="h-[100vh] w-[100vw] max-w-max overflow-hidden overflow-y-scroll rounded-none p-4 shadow-md lg:h-2/3 lg:w-2/3 lg:overflow-y-hidden lg:rounded-lg">
+      <DialogContent className="h-[100vh] w-[100vw] max-w-max overflow-hidden overflow-y-scroll p-4 shadow-md sm:rounded-none lg:h-2/3 lg:w-2/3 lg:overflow-y-hidden lg:rounded-lg">
         <div className="mx-auto my-auto flex h-full flex-col items-center gap-4 md:w-5/6 lg:h-fit lg:flex-row">
           <img src="https://placehold.co/300x450" alt="" />
           <div className="space-y-6 py-4">
