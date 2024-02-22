@@ -1,22 +1,11 @@
-import { VariantProps, tv } from 'tailwind-variants'
+import { twMerge } from 'tailwind-merge'
 
-const separator = tv({
-  base: ' h-[1px] w-full',
-  variants: {
-    color: {
-      light: 'bg-slate-200',
-      dark: 'bg-slate-800',
-    },
-  },
-  defaultVariants: {
-    color: 'light',
-  },
-})
-
-interface SeparatorProps extends VariantProps<typeof separator> {
+interface SeparatorProps {
   className?: string
 }
 
-export function Separator({ className, color }: SeparatorProps) {
-  return <div className={separator({ color, class: className })}></div>
+export function Separator({ className }: SeparatorProps) {
+  return (
+    <div className={twMerge('h-[1px] bg-muted-foreground', className)}></div>
+  )
 }
