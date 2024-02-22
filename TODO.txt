@@ -1,6 +1,7 @@
 [] - Landing Page
 [] - Tela de pesquisa
-    [] - Cards
+    [✔] - Cards
+    [✔] - Modal Cards
     [] - Pesquisa
     [] - Filtros
 [] - Login ADM

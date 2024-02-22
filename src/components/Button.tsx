@@ -12,8 +12,9 @@ const button = tv({
       warning: 'btn-warning',
     },
     size: {
-      sm: 'p-2',
-      lg: 'p-6',
+      xs: 'p-1 body',
+      sm: 'p-2 body',
+      lg: 'p-6 headline',
     },
     variant: {
       outlined: 'outlined',
